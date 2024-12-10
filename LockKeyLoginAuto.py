@@ -15,6 +15,4 @@ values = {'loginid' : myMail,
         'action': 'Login'}
 
 r = requests.post(url, data=values)
-print(r.content)
-
-#xD
+print(r.content) #prints the return of request
